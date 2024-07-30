@@ -21,7 +21,7 @@ numbers_ = int(input('введите номер от 3 до 20: '))
 def password_(numbers_):
     pass_ = ''
     for i in range(1, numbers_):
-        for j in range(i + 1, numbers_ + 1):
+        for j in range(i + 1, numbers_):
             if numbers_ % (i + j) == 0:
                 pass_ += str(i) + str(j)
     return pass_
